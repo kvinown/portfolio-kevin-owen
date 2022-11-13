@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Acme', sans-serif;
+}
+
+nav {
+    position:sticky ;
+    top: 0;
+    overflow: hidden;
+    z-index: 100;
+}
+nav a {
+    font-family: sans-serif;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+nav ul li a:hover {
+    background-color: rgb(175, 175, 175);
+    color: black;
+}
+nav ul li a:active{
+    background-color: #38073b;
+    color: white;
+}
+
+section {
+    height: auto;
+    min-height: 100vh;
+    width: 100%;
+    padding: 10em 2em;
+}
+#home {
+    background-color: rgb(26, 26, 26);
+    color: white;
+    padding: auto 2em;
+    }
+#pas-foto {
+    border-radius: 30px;
+    vertical-align: middle;
+    width: 100%;
+    max-width: 300px;
+    min-width: 100px;
+    height: auto;
+}
+#button {
+    text-align: center;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 10px 50px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 0px rgb(0, 0, 0);
+}
+#button:hover {
+    transition-duration: 0.5s;
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px 0px rgb(32, 32, 32);
+}
+#button:active {
+    margin-bottom: 50px;
+}
+.about-image {
+    border-radius: 30px;
+    width: 100%;
+    max-width: 400px;
+    min-width: 100px;
+    vertical-align: middle;
+    height: auto;
+}
+#exp {
+    background-color: bisque;
+}
+#CP {
+    width: 100%;
+    max-width: 400px;
+    min-width: 100px;
+    background-color: black;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+#CP:hover {
+    box-shadow: 5px 5px 0px grey;
+    opacity: 100%;
+    transition-duration: 0.5s;
+}
+#CP:active {
+    margin-bottom: -10px;
+}
+
+#osis {
+    background-color: white;
+    width: 100%;
+    max-width: 400px;
+    min-width: 100px;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+#osis:hover {
+    opacity: 100%;
+    transition-duration: 0.5s;
+    box-shadow: 5px 5px 0px rgb(0, 0, 0);
+}
+#osis:active {
+    margin-bottom: -10px;
+}
+
+#skill-logo {
+    width: 100%;
+    min-width: 150px;
+    max-width: 300px;
+    padding: 2em;
+}
+#contact {
+    background-color: rgb(217, 217, 217);
+}
+#contact-maps {
+    width: 100%;
+    max-width: 500px;
+    border: 0;
+    height: 500px;
+}
