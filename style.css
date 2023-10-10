@@ -89,6 +89,7 @@ section {
   background-color: black;
   border-radius: 20px;
   vertical-align: middle;
+  transition-duration: 0.5s;
 }
 #CP:hover {
   box-shadow: 5px 5px 0px grey;
